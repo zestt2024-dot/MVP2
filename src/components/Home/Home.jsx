@@ -44,7 +44,7 @@ if (loading) return (
     
   return (
     <>
-                 <div className="container mx-auto p-6 lg:ml-20 mt-6">
+                 <div className="container mx-auto p-6 lg:ml-14 mt-6">
                     <div className='flex  justify-center gap-2 flex-wrap'>
                         {['All','Electronics','Laptops','Fashion','Home & Kitchen','Beauty','Medical Supplies'].map(cat=>(
                           <button key={cat} onClick={()=>filterCategory(cat)} className={`px-5 py-2 rounded-full ${category === cat?'bg-blue-600 text-white shadow-lg':'bg-white text-gray-600 '}`}>
